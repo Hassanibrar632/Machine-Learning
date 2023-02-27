@@ -1,0 +1,20 @@
+This code is an implementation of linear regression in Python. The aim is to demonstrate how linear regression works by generating random data 
+and fitting a line of best fit through the data using the least squares method. 
+This implementation uses NumPy and Matplotlib libraries for data manipulation and visualization.
+
+The implementation of linear regression works as follows:
+
+Generating Random Data
+The X and Y arrays are generated using NumPy's random module. The Noise variable controls the amount of noise added to the data points, while the points variable controls the number of data points generated.
+
+Calculating M and C
+The slope M and intercept C of the line of best fit are calculated using the least squares method.
+
+Predicting Values of ŷ
+The predicted values of ŷ are calculated using the equation ŷ = Mx + C.
+
+Calculating Error
+The Mean Squared Error (MSE) and Standard Error (StE) are calculated to measure the accuracy of the regression line.
+
+Plotting the Result
+The data points and regression line are plotted using Matplotlib.
